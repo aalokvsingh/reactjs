@@ -47,6 +47,7 @@ const Board = ()=>{
     }
     return (        
         <div className="board-container">
+            <h1 style={{justifyContent:'center',alignItem:'center'}}>Tic-tac-toe</h1>
             {isWinner ? (<> {isWinner} Own the game <button onClick={()=>resetgame()}>Play again</button></>) : (<>
             <h4>Player { isXTurn ? 'X' :'0' } please move</h4>
             <div className="board-row">
