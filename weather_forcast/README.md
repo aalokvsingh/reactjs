@@ -1,3 +1,8 @@
+# React Prject to get current weather of given location
+Used below react features
+### `createContext contextProvider UseEffect useState fetchAPI`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
